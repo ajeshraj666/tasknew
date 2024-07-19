@@ -1,0 +1,633 @@
+.footerTop {
+  background: #faf0ec;
+  padding: 25px 0px;
+  @include min(992) {
+    padding: 30px 0px;
+  }
+  @include min(1200) {
+    padding: 35px 0px;
+  }
+  @include min(1440) {
+    padding: 38px 0px;
+  }
+  @include min(1600) {
+    padding: 40px 0px;
+  }
+  @include min(1900) {
+    padding: 42px 0px;
+  }
+  .phone,
+  .email {
+    display: flex;
+    flex-wrap: wrap;
+    @include max(767) {
+      margin-bottom: 20px;
+      gap: 0px 14px;
+    }
+    a {
+      font-weight: 500;
+      @include max(575) {
+        width: 100%;
+      }
+      @include min(1200) {
+        padding-left: 55px;
+      }
+    }
+    svg {
+      height: auto;
+      width: 27px;
+      @include min(768) {
+        width: 28px;
+      }
+      @include min(992) {
+        width: 26px;
+      }
+      @include min(1200) {
+        width: 28px;
+      }
+      @include min(1440) {
+        width: 30px;
+      }
+      @include min(1600) {
+        width: 33px;
+      }
+      @include min(1900) {
+        width: 35px;
+      }
+    }
+  }
+  .brand {
+    width: 100%;
+    @include max(1199) {
+      margin-bottom: 20px;
+    }
+    @include min(992) {
+      width: 24.33%;
+    }
+    @include min(1200) {
+      width: 27.33%;
+    }
+    img {
+      height: auto;
+      width: 149px;
+      @include min(768) {
+        width: 170px;
+      }
+      @include min(992) {
+        width: 180px;
+      }
+      @include min(1200) {
+        width: 220px;
+      }
+      @include min(1440) {
+        width: 240px;
+      }
+      @include min(1600) {
+        width: 260px;
+      }
+      @include min(1900) {
+        width: 280px;
+      }
+    }
+  }
+  .phone {
+    @include min(768) {
+      width: 28%;
+    }
+    @include min(992) {
+      border-right: 1px solid #c1c1c1;
+      width: 19.24%;
+    }
+    @include min(1200) {
+      width: 25.24%;
+    }
+  }
+  .email {
+    @include min-max(768, 991) {
+      margin-left: 47px;
+    }
+    @include min(768) {
+      width: 35%;
+    }
+    @include min(992) {
+      padding-left: 30px;
+      width: 33.16%;
+    }
+    @include min(1200) {
+      padding-left: 40px;
+      width: 26.16%;
+    }
+    @include min(1440) {
+      width: 24.16%;
+      padding-left: 70px;
+    }
+    @include min(1600) {
+      padding-left: 90px;
+      width:24.16%;
+    }
+    @include min(1900) {
+      width: 22.16%;
+      padding-left: 110px;
+    }
+  }
+  .ctaButton {
+    width: 100%;
+    @include min(768) {
+      width: 30%;
+    }
+    @include min(992) {
+      width: 23.2%;
+    }
+    @include min(1200) {
+      width: 21.2%;
+    }
+    @include min(1440) {
+      width: 23.2%;
+    }
+    @include min(1600) {
+      width: 23.2%;
+    }
+    @include min(1900) {
+      width: 25.2%;
+    }
+  }
+  strong {
+    align-items: center;
+    width: 100%;
+    color: $black;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+    @include min(768) {
+      margin-bottom: 10px;
+      gap: 12px;
+    }
+    @include min(1200) {
+      gap: 14px;
+    }
+    @include min(1440) {
+      gap: 16px;
+    }
+    @include min(1600) {
+      gap: 18px;
+    }
+    @include min(1900) {
+      gap: 20px;
+    }
+  }
+  a {
+    color: $black;
+  }
+  .btn {
+    @extend .themeBtn;
+    @extend .themeBtnp;
+    width: fit-content;
+    @include min(768) {
+      margin-left: auto;
+    }
+  }
+}
+footer {
+  @include max(991) {
+    margin-bottom: 40px;
+  }
+  background-color: $primaryColor;
+  padding-top: 40px;
+  @include min(768) {
+    padding-top: 90px;
+  }
+  @include min(992) {
+    padding-top: 95px;
+  }
+  @include min(1200) {
+    padding-top: 100px;
+  }
+  @include min(1440) {
+    padding-top: 110px;
+  }
+  @include min(1600) {
+    padding-top: 120px;
+  }
+  @include min(1900) {
+    padding-top: 130px;
+  }
+  strong,
+  p,
+  a,
+  span {
+    color: $white;
+  }
+  strong {
+    font-family: "ArialRounded";
+
+    width: 100%;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 15px;
+
+    @include min(768) {
+      margin-bottom: 26px;
+      font-size: 16px;
+    }
+    @include min(992) {
+      margin-bottom: 28px;
+      font-size: 18px;
+    }
+    @include min(1200) {
+      margin-bottom: 30px;
+      font-size: 22px;
+    }
+    @include min(1440) {
+      margin-bottom: 35px;
+      font-size: 24px;
+    }
+    @include min(1600) {
+      margin-bottom: 38px;
+      font-size: 26px;
+    }
+    @include min(1900) {
+      margin-bottom: 40px;
+      font-size: 28px;
+    }
+  }
+  .aboutContent {
+    width: 100%;
+    @include min(768) {
+      width: 29.13%;
+    }
+    @include min(1200) {
+      width: 24.13%;
+    }
+  }
+  .links {
+    width: 100%;
+    @include min(768) {
+      width: 33.23%;
+    }
+    @include min(992) {
+      width: 28.23%;
+    }
+    @include min(1200) {
+      width: 40.23%;
+    }
+    @include min(1300) {
+      width: 38.23%;
+    }
+    @include min(1440) {
+      width: 38.23%;
+    }
+    @include min(1600) {
+      width: 38.23%;
+    }
+    @include min(1900) {
+      width: 37.23%;
+    }
+    a {
+      position: relative;
+      transition: 0.5s ease all;
+
+      &::before {
+        content: "+";
+        position: absolute;
+        left: 0;
+        opacity: 0;
+        transition: 0.5s ease all;
+      }
+      &:hover {
+        transition: 0.5s ease all;
+        padding-left: 18px;
+        @include min(1200) {
+          padding-left: 20px;
+        }
+        @include min(1440) {
+          padding-left: 22px;
+        }
+        @include min(1600) {
+          padding-left: 23px;
+        }
+        @include min(1600) {
+          padding-left: 24px;
+        }
+        @include min(1900) {
+          padding-left: 25px;
+        }
+        &::before {
+          opacity: 1;
+          transition: 0.5s ease all;
+        }
+      }
+    }
+  }
+  .phone {
+    @include min-max(768, 991) {
+      div {
+        width: 100% !important;
+        flex-wrap: wrap;
+      }
+      a {
+        width: 100%;
+      }
+    }
+  }
+  .address {
+    width: 100%;
+
+    @include min(768) {
+      width: 33.24%;
+    }
+    @include min(992) {
+      width: 39.24%;
+    }
+    @include min(1200) {
+      width: 34.24%;
+    }
+    @include min(1600) {
+      width: 34.24%;
+    }
+    @include min(1900) {
+      width: 31.24%;
+    }
+  }
+  .container-ctn {
+    .d-flex {
+      padding-bottom: 40px;
+
+      @include max(767) {
+        gap: 30px 0px;
+      }
+      @include min(768) {
+        border-bottom: 1px solid #743a7e;
+      }
+      @include min(992) {
+        padding-bottom: 45px;
+      }
+      @include min(1200) {
+        padding-bottom: 50px;
+      }
+      @include min(1440) {
+        padding-bottom: 55px;
+      }
+      @include min(1600) {
+        padding-bottom: 58px;
+      }
+      @include min(1900) {
+        padding-bottom: 60px;
+      }
+    }
+  }
+  .d-flex {
+    > div {
+      > div {
+        padding-left: 20px;
+        @include min(768) {
+          padding-left: 22px;
+        }
+        @include min(992) {
+          padding-left: 24px;
+        }
+        @include min(1200) {
+          padding-left: 26px;
+        }
+        @include min(1440) {
+          padding-left: 30px;
+        }
+        @include min(1600) {
+          padding-left: 38px;
+        }
+        @include min(1900) {
+          padding-left: 40px;
+        }
+        position: relative;
+        &::before {
+          @extend .position;
+          width: 5px;
+          height: 25px;
+          background-color: $secondaryColor;
+          left: 0;
+          top: 0;
+          border-radius: 20px;
+          @include min(768) {
+            width: 6px;
+            height: 30px;
+          }
+          @include min(992) {
+            width: 7px;
+          }
+
+          @include min(1440) {
+            width: 8px;
+          }
+          @include min(1600) {
+            width: 9px;
+          }
+          @include min(1900) {
+            width: 10px;
+          }
+        }
+      }
+    }
+  }
+  .aboutContent {
+    p {
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    span {
+      margin-bottom: 20px;
+      display: block;
+    }
+    ul {
+      display: flex;
+      gap: 0px 10px;
+    }
+    a:hover {
+      svg {
+        path {
+          fill: #d400f8;
+        }
+      }
+    }
+  }
+  .links {
+    div {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      ul {
+        width: 100%;
+        @include min(1200) {
+          width: 48%;
+        }
+      }
+      li {
+        margin-bottom: 10px;
+        &:last-child {
+          @include min(1200) {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .address,
+  .links {
+    a {
+      position: relative;
+      transition: 0.5s ease all;
+
+      // &::before{
+      //     content: '+';
+      //     position: absolute;
+      //     left: 0;
+      //     opacity: 0;
+      //     transition: 0.5s ease all;
+
+      // }
+      // &:hover{
+      //     transition: 0.5s ease all;
+      //     padding-left: 18px;
+      //     @include min(1200){
+      //         padding-left: 20px;
+      //     }
+      //     @include min(1440){
+      //         padding-left: 22px;
+      //     }
+      //     @include min(1600){
+      //         padding-left: 23px;
+      //     }
+      //     @include min(1600){
+      //         padding-left: 24px;
+      //     }
+      //     @include min(1900){
+      //         padding-left: 25px;
+      //     }
+      //     &::before{
+      //         opacity: 1;
+      //     transition: 0.5s ease all;
+
+      //     }
+      // }
+    }
+  }
+  .address {
+    li {
+      // padding-bottom: 5px;
+      // border-bottom: 1px solid  #743A7E;
+      display: flex;
+      margin-bottom: 20px;
+      transition: 0.5s ease all;
+      gap: 10px;
+      &.mail {
+        flex-wrap: wrap;
+        div {
+          flex-wrap: wrap;
+        }
+        a {
+          width: 100%;
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      i {
+        width: 20px;
+      }
+      div {
+        display: flex;
+        width: 90%;
+        @include min(768) {
+          width: 84%;
+        }
+        @include min(992) {
+          width: 91%;
+        }
+        @include min(1200) {
+          width: 90%;
+        }
+        @include min(1600) {
+          width: 93%;
+        }
+      }
+      a {
+        @include max(767) {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .acknowledgement {
+    padding-bottom: 45px;
+    @include min(768) {
+      padding-top: 33px;
+      padding-bottom: 60px;
+    }
+    @include min(992) {
+      padding-top: 35px;
+      padding-bottom: 65px;
+    }
+    @include min(1200) {
+      padding-top: 40px;
+      padding-bottom: 70px;
+    }
+    @include min(1440) {
+      padding-top: 45px;
+      padding-bottom: 85px;
+    }
+    @include min(1600) {
+      padding-top: 50px;
+      padding-bottom: 90px;
+    }
+    @include min(1900) {
+      padding-top: 60px;
+      padding-bottom: 100px;
+    }
+    span {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  .container-fluid {
+    background: #50145a;
+    padding: 15px 0px;
+    @include min(992) {
+      padding: 23px 0px;
+    }
+    @include max(767) {
+      text-align: center;
+    }
+    p {
+      @include max(767) {
+        line-height: 30px;
+      }
+      span {
+        border-left: 1px solid #fff;
+        margin-left: 10px;
+        padding-left: 10px;
+        @include min(1200) {
+          margin-left: 15px;
+          padding-left: 25px;
+        }
+        @include min(1440) {
+          margin-left: 20px;
+          padding-left: 35px;
+        }
+        @include min(1900) {
+          margin-left: 24px;
+          padding-left: 40px;
+        }
+        @include max(767) {
+          display: none;
+        }
+      }
+      a {
+        margin-left: 10px;
+        @include max(575) {
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+  }
+}

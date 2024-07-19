@@ -1,0 +1,83 @@
+@keyframes rotate {
+    0% {
+        transform: rotate(360deg);
+
+    }
+    50% {
+        transform: rotate(180deg);
+  
+    }
+    to {
+        transform: rotate(0deg);
+
+       
+       
+    }
+}
+@keyframes bouns1 {
+    0% {
+        transform: translate(0%, 0%);
+
+
+    }
+    25% {
+        transform: translate(100%, -50%);
+
+  
+    }
+    75% {
+
+        transform: translate(100%, 100%);
+  
+    }
+    to {
+        transform: translate(0%, 0%);
+
+       
+       
+    }
+}
+@keyframes bouns2 {
+    0% {
+        transform: translate(0%, 0%);
+
+
+    }
+    25% {
+        transform: translate(-50%, -50%);
+
+  
+    }
+    75% {
+
+        transform: translate(-100%, -100%);
+  
+    }
+    to {
+        transform: translate(0%, 0%);
+
+       
+       
+    }
+}
+@keyframes osil {
+    0% {
+        transform: rotate(0deg);
+
+
+    }
+    25% {
+        transform: rotate(-8deg);
+  
+    }
+    75% {
+
+        transform: rotate(8deg);  
+    }
+    to {
+        transform: rotate(0deg);
+
+       
+       
+    }
+}
